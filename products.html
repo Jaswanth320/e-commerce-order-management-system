@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products - E-Commerce Order Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>E-Commerce Order Management System</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="orders.html">Orders</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="products">
+
+            <h2>All Products</h2>
+
+            <div class="product-container">
+
+                <div class="product-card">
+                    <h3>Smartphone</h3>
+                    <p>Latest smartphone with advanced features.</p>
+                    <h4>₹25,000</h4>
+                    <button onclick="addToCart('Smartphone', 25000)">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="product-card">
+                    <h3>Laptop</h3>
+                    <p>Powerful laptop for students and professionals.</p>
+                    <h4>₹55,000</h4>
+                    <button onclick="addToCart('Laptop', 55000)">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="product-card">
+                    <h3>Headphones</h3>
+                    <p>High-quality wireless headphones.</p>
+                    <h4>₹2,500</h4>
+                    <button onclick="addToCart('Headphones', 2500)">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 E-Commerce Order Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

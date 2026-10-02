@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>E-Commerce Order Management System</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Products</a>
+            <a href="#">Orders</a>
+            <a href="cart.html">Cart</a>
+            <a href="#">Login</a>
+        </nav>
+
+    </header>
+
+
+    <main class="cart-page">
+
+        <h2>Shopping Cart 🛒</h2>
+
+        <div class="cart-box">
+
+    <div id="cart-items"></div>
+
+    <div class="cart-total">
+        <h2>Total: ₹<span id="cart-total">0</span></h2>
+
+        <button onclick="goToCheckout()">
+    Proceed to Checkout
+</button>
+    </div>
+
+</div>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 E-Commerce Order Management System</p>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
